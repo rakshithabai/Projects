@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Feedback Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script>
+  function feedBack()
+  {
+	  alert("Thank you for your valuable feedback");
+  }
+  </script>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">New India Insurance</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="Home.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+     <li class=><a href="Product.html">Insurance Product</a></li>
+     
+      <li><a href="Contact.html"><span class="glyphicon glyphicon-phone-alt"></span>Contact</a></li>
+      <li class="active"><a href="Feedback.html"><span class="glyphicon glyphicon-envelope"></span>FeedBack</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+  <h3>FeedBack</h3>
+<form>
+    <div class="form-group">
+      <label for="Feedback">We all need people who gives us feedback</label>
+<input type="text" class="form-control" id="feedback" placeholder="Enter feedback">
+<br>
+</div>
+<button  onclick="feedBack()">Submit</button>
+
+  </form>
+</div>
+
+</body>
+</html>
